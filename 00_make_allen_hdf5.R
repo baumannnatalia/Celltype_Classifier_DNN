@@ -1,5 +1,5 @@
 
-source("src/natalia/lib_hdf5.R")
+source("lib_hdf5.R")
 
 
 #' Read json file storing the allen taxonomy and convert into a data.frame
