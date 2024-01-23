@@ -58,8 +58,8 @@ make_allen_h5 <- function(dir,h5file) {
   # dend <- read_dend_json(file.path(dir,"dend.json"))
   # rhdf5::h5write(dend,h5file,"dendrogram",DataFrameAsCompound=FALSE)
 }
-make_allen_h5("data/mouse-whole-cortex-and-hippocampus-10x_2022/","out/mouse-whole-cortex-and-hippocampus-10x_2022.h5")
-make_allen_h5("data/mouse-whole-cortex-and-hippocampus-smart-seq_2022/","out/mouse-whole-cortex-and-hippocampus-smart-seq_2022.h5")
+make_allen_h5("mouse-whole-cortex-and-hippocampus-10x_2022/","mouse-whole-cortex-and-hippocampus-10x_2022.h5")
+make_allen_h5("mouse-whole-cortex-and-hippocampus-smart-seq_2022/","mouse-whole-cortex-and-hippocampus-smart-seq_2022.h5")
 #make_allen_h5("data/mouse-whole-cortex-and-hippocampus-smart-seq/","out/mouse-whole-cortex-and-hippocampus-smart-seq.h5")
 #make_allen_h5("data/human-multiple-cortical-areas-smart-seq/","out/human-multiple-cortical-areas-smart-seq.h5")
 #make_allen_h5("data/human-m1-10x/","out/human-m1-10x.h5")
